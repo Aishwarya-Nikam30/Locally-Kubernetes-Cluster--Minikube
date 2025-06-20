@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-service
+spec:
+  type: NodePort  #to access it from outside
+  selector:
+    app: hello
+  ports:
+  - port: 80  #It assigns a port to the Service’s cluster IP
+    targetPort: 80   #containerPort
+    protocol: TCP   #default
