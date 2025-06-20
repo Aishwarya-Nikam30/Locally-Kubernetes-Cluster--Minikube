@@ -1,5 +1,5 @@
 
-# 🚀 TASK 5: Build a Kubernetes Cluster Locally with Minikube
+# 🚀 Build a Kubernetes Cluster Locally with Minikube
 
 ## 📌 Objective
 Deploy and manage applications in a local Kubernetes cluster using **Minikube** on Windows with PowerShell.
